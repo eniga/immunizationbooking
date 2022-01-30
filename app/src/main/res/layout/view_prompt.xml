@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingVertical="20dp"
+    android:paddingHorizontal="14dp"
+    android:gravity="center_vertical"
+    android:background="#55000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/whitebg"
+        android:paddingVertical="40dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="left"
+            android:paddingHorizontal="22dp">
+            <TextView
+                android:id="@+id/user_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+
+                android:text="Rose Berry Details"></TextView>
+        </LinearLayout>
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:paddingHorizontal="22dp"
+           android:paddingVertical="10dp">
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_alignParentTop="true"
+               android:orientation="vertical">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   android:layout_marginBottom="10dp">
+
+                   <TextView
+                       android:layout_width="0dp"
+                       android:layout_weight="2.5"
+                       android:layout_height="wrap_content"
+                       android:text="First Name:"
+                       android:textSize="18dp"></TextView>
+
+                   <TextView
+                       android:id="@+id/firstname"
+                       android:layout_width="0dp"
+                       android:layout_weight="2.5"
+                       android:layout_height="wrap_content"
+                       android:text="Berry"
+                       android:textSize="18dp"></TextView>
+
+               </LinearLayout>
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   android:layout_marginBottom="10dp">
+
+                   <TextView
+                       android:layout_width="0dp"
+                       android:layout_weight="2.5"
+                       android:layout_height="wrap_content"
+                       android:text="Last Name:"
+                       android:textSize="18dp"></TextView>
+
+                   <TextView
+                       android:id="@+id/lastname"
+                       android:layout_width="0dp"
+                       android:layout_weight="2.5"
+                       android:layout_height="wrap_content"
+                       android:text="Berry"
+                       android:textSize="18dp"></TextView>
+
+               </LinearLayout>
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   android:layout_marginBottom="10dp">
+
+                   <TextView
+                       android:layout_width="0dp"
+                       android:layout_weight="2.5"
+                       android:layout_height="wrap_content"
+                       android:text="Unit No:"
+                       android:textSize="18dp"></TextView>
+
+                   <TextView
+                       android:id="@+id/unit_no"
+                       android:layout_width="0dp"
+                       android:layout_weight="2.5"
+                       android:layout_height="wrap_content"
+                       android:text="Berry"
+                       android:textSize="18dp"></TextView>
+
+               </LinearLayout>
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   android:layout_marginBottom="10dp">
+
+                   <TextView
+                       android:layout_width="0dp"
+                       android:layout_weight="2.5"
+                       android:layout_height="wrap_content"
+                       android:text="Code:"
+                       android:textSize="18dp"></TextView>
+
+                   <TextView
+                       android:id="@+id/code"
+                       android:layout_width="0dp"
+                       android:layout_weight="2.5"
+                       android:layout_height="wrap_content"
+                       android:text="Berry"
+                       android:textSize="18dp"></TextView>
+
+               </LinearLayout>
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   android:layout_marginBottom="10dp">
+
+                   <TextView
+                       android:layout_width="0dp"
+                       android:layout_weight="2.5"
+                       android:layout_height="wrap_content"
+                       android:text="Date of Birth:"
+                       android:textSize="18dp"></TextView>
+
+                   <TextView
+                       android:id="@+id/dob"
+                       android:layout_width="0dp"
+                       android:layout_weight="2.5"
+                       android:layout_height="wrap_content"
+                       android:text="Berry"
+                       android:textSize="18dp"></TextView>
+
+               </LinearLayout>
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   android:layout_marginBottom="10dp">
+
+                   <TextView
+                       android:layout_width="0dp"
+                       android:layout_weight="2.5"
+                       android:layout_height="wrap_content"
+                       android:text="NHS Number:"
+                       android:textSize="18dp"></TextView>
+
+                   <TextView
+                       android:id="@+id/nhs"
+                       android:layout_width="0dp"
+                       android:layout_weight="2.5"
+                       android:layout_height="wrap_content"
+                       android:text="Berry"
+                       android:textSize="18dp"></TextView>
+
+               </LinearLayout>
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   android:layout_marginBottom="8dp">
+
+                   <TextView
+                       android:layout_width="0dp"
+                       android:layout_weight="2.5"
+                       android:layout_height="wrap_content"
+                       android:text="Gender:"
+                       android:textSize="18dp"></TextView>
+
+                   <TextView
+                       android:id="@+id/gender"
+                       android:layout_width="0dp"
+                       android:layout_weight="2.5"
+                       android:layout_height="wrap_content"
+                       android:text="Berry"
+                       android:textSize="18dp"></TextView>
+
+               </LinearLayout>
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:id="@+id/button_view"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:layout_gravity="left"
+               android:layout_marginTop="10dp"
+               android:layout_marginLeft="10dp"
+               android:layout_alignParentBottom="true"
+               android:layout_centerHorizontal="true">
+
+
+               <Button
+                   android:id="@+id/cancel"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Close"
+                   android:textColor="@color/black"
+                   android:layout_marginLeft="5dp"></Button>
+           </LinearLayout>
+
+       </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

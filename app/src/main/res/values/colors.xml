@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="barColor">#FFFFFF</color>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#2196F3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="signColor">#000000</color>
+    <color name="whitebg">#fff</color>
+    <color name="greybg">#fff</color>
+    <color name="grayDark">#3C3B3B</color>
+    <color name="black">#000000</color>
+    <color name="error">#c33</color>
+</resources>

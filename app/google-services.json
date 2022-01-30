@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "409056277671",
+    "project_id": "im-app-e04e3",
+    "storage_bucket": "im-app-e04e3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:409056277671:android:bbff5e0c612c2632e99782",
+        "android_client_info": {
+          "package_name": "com.example.immunizationbooking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "409056277671-qeqmnbj63gt05glv86q1e0mjah45o3u7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1hQQWwD5fmDpXG45LJo8yJG2L6YLDVAU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "409056277671-qeqmnbj63gt05glv86q1e0mjah45o3u7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

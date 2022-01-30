@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/dashboard"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/add_child"
+            android:title="Add Child" />
+        <item
+            android:id="@+id/child_list"
+            android:title="Child List" />
+        <item
+            android:id="@+id/appointments"
+            android:title="Appointments"/>
+        <item
+            android:id="@+id/signout"
+            android:title="Sign Out"/>
+    </group>
+</menu>
