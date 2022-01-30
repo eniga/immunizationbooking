@@ -1,19 +1,19 @@
-# MQTT Traffic light
+# eRedNote - Immunization Mobile app
 [![NuGet](https://img.shields.io/badge/nuget-v1.0.0-blue)](https://www.nuget.org/packages/NubanLibrary)
 [![License MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-Making Traffic light data available to IoT devices using Raspberry Pi Ki and Python
+A school project for Mobile Application Course
 
-Note that this program is expected to run on a Raspberry Kit
+This is a mobile application built for Android using Java
 
-## Content
+## Features
 ```
-- main.py (This contains the source code to run the entire program. It could also be seen as the entrypoint)
-- trafficlight.py (This is the source code to control the lights on the Raspberry Pi KIt. It contains functions for each light)
-- publish.py (This is the MQTT program which contains a function to publish data using a public broker. The broker and topic can be changed in the main.py file)
-- subscribe.py (This is hte MQTT program whcih contains the function to subscribe to a topic using a public broker. The broker and topic can be changed in the main.py file)
-- 20026427.docx (This contains the summary of this course work)
-- flows.json (Node-Red export file to test the MQTT process)
+•	Login – This allows a registered user to login to the mobile application
+•	Registration – This allows a new user (parent) to register on the application
+•	Dashboard – Displays a mini child list and appointments booked on the application
+•	Add Child – This allows the logged in user to add a child
+•	Child List – This displays a list of all children added on the application
+•	Appointments – This shows all the appointments booked on the application.
 ```
 
 ## Contributors
